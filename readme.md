@@ -5,11 +5,11 @@
 
 ## Features
 
--Provide real time weather data by city 
--It gives the extended forecsat data by by city 
--it also give weather data and extended forecast data by geolocation 
--appropriate icons for the interactive UI
--recently search cities 
+- Provide real time weather data by city 
+- It gives the extended forecsat data by by city
+- it also give weather data and extended forecast data by geolocation
+- appropriate icons for the interactive UI
+- recently search cities 
 
 ## Prerequisites
 
