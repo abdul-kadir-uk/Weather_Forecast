@@ -160,7 +160,6 @@ function displayExtendedForecast(data) {
     forecastContainer = document.createElement('div');
     forecastContainer.id = 'forecast_container';
     forecastContainer.classList.add('mt-6', 'flex', 'flex-wrap', 'justify-center', 'gap-4', 'text-black',
-      'items-center'
     );
     weather_container.appendChild(forecastContainer);
   } else {
