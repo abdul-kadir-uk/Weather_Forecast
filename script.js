@@ -267,7 +267,9 @@ search_btn.addEventListener("click", async () => {
     const extendedForecastData = await getExtendedForecast(query);
     displayWeather(currentWeatherData);
     displayExtendedForecast(extendedForecastData);
-    updateRecentCities(query);
+    if (currentWeatherData && extendedForecastData) {
+      updateRecentCities(query);
+    }
     loadRecentCities();
     clearError();
     search_input.value = '';
